@@ -15,6 +15,4 @@ def check_password_strength(password):
 pwd = input("Enter password: ")
 print("Strength:", check_password_strength(pwd))
 
-Input: Abc@1234
 
-Output: Strength: Strong
