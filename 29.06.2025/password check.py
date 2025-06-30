@@ -12,7 +12,5 @@ def check_password_strength(password):
         return "Weak (No special char)"
     return "Strong"
 
-pwd = input("Enter password: ")
-print("Strength:", check_password_strength(pwd))
 
 
